@@ -95,9 +95,16 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+
+
+
+
+<style lang="scss" rel="text/css" scoped>
+@import '../assets/css/common.scss';
+
 h1, h2 {
   font-weight: normal;
+  color:$tip_message;
 }
 ul {
   list-style-type: none;
@@ -110,4 +117,12 @@ li {
 a {
   color: #42b983;
 }
+
+
+
 </style>
+
+
+
+
+
